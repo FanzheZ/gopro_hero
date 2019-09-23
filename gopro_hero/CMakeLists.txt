@@ -22,7 +22,7 @@ find_package(catkin REQUIRED COMPONENTS
 
 ## System dependencies are found with CMake's conventions
 find_package(Boost REQUIRED COMPONENTS thread system)
-find_package(OpenCV 2.4 REQUIRED)
+find_package(OpenCV 3.3.1 REQUIRED)
 
 ################################################
 ## Declare ROS dynamic reconfigure parameters ##
@@ -45,7 +45,7 @@ find_package(OpenCV 2.4 REQUIRED)
 # )
 
 ###################################
-## catkin specific configuration ##
+## catkin specific cnfiguration ##
 ###################################
 ## The catkin_package macro generates cmake config files for your package
 ## Declare things to be passed to dependent projects
