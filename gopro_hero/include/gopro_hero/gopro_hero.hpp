@@ -5,7 +5,7 @@
 #include <typeinfo>
 #include <sstream>
 #include <iomanip>
-
+#include <vector>
 #include <curl/curl.h>
 
 #include "gopro_hero_commands.hpp"
